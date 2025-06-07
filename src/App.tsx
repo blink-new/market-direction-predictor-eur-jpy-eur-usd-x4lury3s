@@ -15,8 +15,7 @@ import {
   Clock,
   Target,
   Activity,
-  Zap
-} from 'lucide-react';
+} from 'lucide-react'; // Removed unused Zap
 import { toast } from 'react-hot-toast';
 import { MarketAnalysis } from './components/MarketAnalysis';
 import { TradingStrategies } from './components/TradingStrategies';
