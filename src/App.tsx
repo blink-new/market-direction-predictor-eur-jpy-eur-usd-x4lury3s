@@ -18,9 +18,9 @@ import {
   Zap
 } from 'lucide-react';
 import { toast } from 'react-hot-toast';
-import { MarketAnalysis } from './components/ui/MarketAnalysis';
-import { TradingStrategies } from './components/ui/TradingStrategies';
-import { PriceChart } from './components/ui/PriceChart';
+import { MarketAnalysis } from './components/MarketAnalysis';
+import { TradingStrategies } from './components/TradingStrategies';
+import { PriceChart } from './components/PriceChart';
 
 interface MarketData {
   pair: string;
